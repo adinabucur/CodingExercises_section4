@@ -1,8 +1,8 @@
 public class BarkingDog {
     public static void main(String[] args) {
 
-        boolean result = shouldWakeUp(false, 4);
-        System.out.println(result);
+        shouldWakeUp(false, 4);
+
     }
 
     public static boolean shouldWakeUp(boolean barking, int hourOfDay) {

@@ -1,8 +1,8 @@
 public class DecimalComparator {
     public static void main(String[] args) {
 
-        boolean result = areEqualByThreeDecimalPlaces(-3.1856, -3.1756);
-        System.out.println(result);
+        areEqualByThreeDecimalPlaces(-3.1856, -3.1756);
+
     }
 
     public static boolean areEqualByThreeDecimalPlaces(double firstNumber, double secondNumber) {

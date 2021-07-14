@@ -1,8 +1,7 @@
 public class LeapYear {
 
     public static void main(String[] args) {
-        boolean result = isLeapYear(1855);
-        System.out.println(result);
+        isLeapYear(1855);
     }
 
     public static boolean isLeapYear(int year) {

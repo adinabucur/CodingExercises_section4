@@ -1,8 +1,7 @@
 public class TeenNumberChecker {
     public static void main(String[] args) {
 
-        boolean result = hasTeen(15, 99, 500);
-        System.out.println(result);
+       hasTeen(15, 99, 500);
     }
 
     public static boolean hasTeen(int firstNumber, int secondNumber, int thirdNumber) {
